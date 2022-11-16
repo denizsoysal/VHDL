@@ -1,0 +1,159 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"3.07786",
+   "Default View_TopLeft":"1347,374",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port spi_miso -pg 1 -lvl 0 -x -1490 -y 200 -defaultsOSRD
+preplace port spi_csn -pg 1 -lvl 8 -x 3080 -y 180 -defaultsOSRD
+preplace port spi_clk -pg 1 -lvl 8 -x 3080 -y 150 -defaultsOSRD
+preplace port spi_mosi -pg 1 -lvl 8 -x 3080 -y 120 -defaultsOSRD
+preplace port en_led0 -pg 1 -lvl 8 -x 3080 -y 210 -defaultsOSRD
+preplace port clk_ref -pg 1 -lvl 0 -x -1490 -y 600 -defaultsOSRD
+preplace port en_led1 -pg 1 -lvl 8 -x 3080 -y 960 -defaultsOSRD
+preplace port spi_miso_1 -pg 1 -lvl 0 -x -1490 -y 630 -defaultsOSRD
+preplace port spi_mosi_1 -pg 1 -lvl 8 -x 3080 -y 580 -defaultsOSRD
+preplace port spi_clk_1 -pg 1 -lvl 8 -x 3080 -y 830 -defaultsOSRD
+preplace port spi_csn_1 -pg 1 -lvl 8 -x 3080 -y 860 -defaultsOSRD
+preplace port spi_miso_0 -pg 1 -lvl 0 -x -1490 -y 1650 -defaultsOSRD
+preplace port spi_mosi_0 -pg 1 -lvl 8 -x 3080 -y 1600 -defaultsOSRD
+preplace port spi_clk_0 -pg 1 -lvl 8 -x 3080 -y 1630 -defaultsOSRD
+preplace port spi_csn_0 -pg 1 -lvl 8 -x 3080 -y 1020 -defaultsOSRD
+preplace port pg_5v -pg 1 -lvl 0 -x -1490 -y 690 -defaultsOSRD
+preplace port en_5v -pg 1 -lvl 0 -x -1490 -y 660 -defaultsOSRD
+preplace port pg_1V0 -pg 1 -lvl 0 -x -1490 -y 420 -defaultsOSRD
+preplace port pg_1V2 -pg 1 -lvl 0 -x -1490 -y 390 -defaultsOSRD
+preplace port pg_1V8 -pg 1 -lvl 0 -x -1490 -y 280 -defaultsOSRD
+preplace port pg_vdimm -pg 1 -lvl 0 -x -1490 -y 960 -defaultsOSRD
+preplace port pg_vcore -pg 1 -lvl 0 -x -1490 -y 930 -defaultsOSRD
+preplace port pg_3V3 -pg 1 -lvl 0 -x -1490 -y 450 -defaultsOSRD
+preplace port pg_poreset -pg 1 -lvl 0 -x -1490 -y 990 -defaultsOSRD
+preplace port EN_PWR_5V -pg 1 -lvl 8 -x 3080 -y 1230 -defaultsOSRD
+preplace port ADC_eoc -pg 1 -lvl 0 -x -1490 -y 1170 -defaultsOSRD
+preplace port rstn -pg 1 -lvl 0 -x -1490 -y 1020 -defaultsOSRD
+preplace port IOV_VMECPU_0 -pg 1 -lvl 0 -x -1490 -y 1050 -defaultsOSRD
+preplace port PG_PWR_5V_0 -pg 1 -lvl 0 -x -1490 -y 1080 -defaultsOSRD
+preplace port start_btnn_0 -pg 1 -lvl 0 -x -1490 -y 1110 -defaultsOSRD
+preplace port CLOCK_OUT_0 -pg 1 -lvl 0 -x -1490 -y 780 -defaultsOSRD
+preplace port TST_CLK_S0_0 -pg 1 -lvl 8 -x 3080 -y 680 -defaultsOSRD
+preplace port TST_CLK_S1_0 -pg 1 -lvl 8 -x 3080 -y 710 -defaultsOSRD
+preplace port TST_CLK_S2_0 -pg 1 -lvl 8 -x 3080 -y 740 -defaultsOSRD
+preplace port sw_not_programmed_0 -pg 1 -lvl 0 -x -1490 -y 720 -defaultsOSRD
+preplace port led_rst_0 -pg 1 -lvl 0 -x -1490 -y 750 -defaultsOSRD
+preplace port led_usr_0 -pg 1 -lvl 0 -x -1490 -y 810 -defaultsOSRD
+preplace port led_wtd_0 -pg 1 -lvl 0 -x -1490 -y 840 -defaultsOSRD
+preplace port hreset_0 -pg 1 -lvl 0 -x -1490 -y 880 -defaultsOSRD
+preplace port btn_rst_t_0 -pg 1 -lvl 8 -x 3080 -y 790 -defaultsOSRD
+preplace port XTAL_RTC_OE_0 -pg 1 -lvl 8 -x 3080 -y 550 -defaultsOSRD
+preplace inst spi_master_0 -pg 1 -lvl 7 -x 2820 -y 340 -defaultsOSRD
+preplace inst spi_master_1 -pg 1 -lvl 7 -x 2820 -y 550 -defaultsOSRD
+preplace inst spi_master_2 -pg 1 -lvl 7 -x 2820 -y 940 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 420 -y 1570 -defaultsOSRD
+preplace inst ctrl_io_exp_0 -pg 1 -lvl 5 -x 1940 -y 340 -defaultsOSRD
+preplace inst ctrl_io_exp_1 -pg 1 -lvl 5 -x 1940 -y 540 -defaultsOSRD
+preplace inst ctrl_adc_0 -pg 1 -lvl 6 -x 2320 -y 980 -defaultsOSRD
+preplace inst clk_div_0 -pg 1 -lvl 1 -x -220 -y 540 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 1060 -y 770 -defaultsOSRD
+preplace inst leds_display_0 -pg 1 -lvl 4 -x 1540 -y 350 -defaultsOSRD
+preplace inst power_management_0 -pg 1 -lvl 2 -x 420 -y 1220 -defaultsOSRD
+preplace inst sequencer_0 -pg 1 -lvl 2 -x 420 -y 600 -defaultsOSRD
+preplace netloc ctrl_io_exp_0_en_led0 1 2 6 680 210 N 210 NJ 210 NJ 210 N 210 N
+preplace netloc ctrl_io_exp_0_r_ready 1 5 2 N 340 2600
+preplace netloc ctrl_io_exp_0_w_data 1 5 2 N 360 2600
+preplace netloc ctrl_io_exp_0_w_valid 1 5 2 N 320 2620
+preplace netloc spi_master_0_r_data 1 4 4 1740J 180 N 180 N 180 2990
+preplace netloc spi_master_0_w_ready 1 4 4 1770J 230 N 230 N 230 2950
+preplace netloc spi_master_0_r_valid 1 4 4 1760J 220 N 220 N 220 2960
+preplace netloc clk_div_0_clk_out 1 1 6 -30 50 N 50 1220 200 1730 200 2080 310 2560
+preplace netloc ctrl_io_exp_1_w_valid 1 5 2 2090 530 2570
+preplace netloc ctrl_io_exp_1_r_ready 1 5 2 N 540 2550
+preplace netloc ctrl_io_exp_1_w_data 1 5 2 N 560 2540
+preplace netloc spi_master_1_r_data 1 4 4 1750J 190 N 190 N 190 2970
+preplace netloc spi_master_1_r_valid 1 4 4 1770J 680 N 680 N 680 2950
+preplace netloc spi_master_1_w_ready 1 4 4 1760J 660 N 660 N 660 2960
+preplace netloc ctrl_io_exp_0_en_led1 1 2 6 670 170 N 170 NJ 170 NJ 170 N 170 3030
+preplace netloc spi_miso_0_1 1 0 7 -1470J 190 -110 70 NJ 70 N 70 NJ 70 N 70 2590
+preplace netloc spi_master_1_spi_mosi 1 7 1 3040 560n
+preplace netloc spi_master_1_spi_clk 1 7 1 3020 580n
+preplace netloc spi_master_1_spi_csn 1 7 1 2990 600n
+preplace netloc spi_master_2_w_ready 1 5 3 2120 800 N 800 2950
+preplace netloc spi_master_2_r_valid 1 5 3 2110 790 N 790 2960
+preplace netloc spi_master_2_r_data 1 5 3 2100 780 N 780 2970
+preplace netloc ctrl_adc_0_r_ready 1 6 1 2570 950n
+preplace netloc ctrl_adc_0_w_data 1 6 1 2590 970n
+preplace netloc spi_miso_0_2 1 0 7 NJ 1650 N 1650 N 1650 N 1650 N 1650 N 1650 2610
+preplace netloc spi_master_2_spi_mosi 1 7 1 3000J 950n
+preplace netloc spi_master_2_spi_clk 1 7 1 2960J 970n
+preplace netloc spi_master_2_spi_csn 1 7 1 2980J 990n
+preplace netloc pg_5v_0_1 1 0 2 -1440J 410 -100
+preplace netloc en_5v_0_1 1 0 2 -1460J 400 -110
+preplace netloc pg_1V0_0_1 1 0 2 NJ 420 -90
+preplace netloc pg_1V2_0_1 1 0 2 -1400J 440 -40
+preplace netloc pg_1V8_0_1 1 0 2 NJ 280 0
+preplace netloc pg_vdimm_0_1 1 0 2 -1420J 470 0
+preplace netloc pg_vcore_0_1 1 0 2 -1430J 460 -20
+preplace netloc pg_3V3_0_1 1 0 2 -1450J 430 -60
+preplace netloc pg_poreset_0_1 1 0 3 -1410J 480 -70 100 780
+preplace netloc ctrl_adc_0_AIN1_value 1 1 6 30 1430 NJ 1430 N 1430 N 1430 N 1430 2540
+preplace netloc ctrl_adc_0_AIN2_value 1 1 6 60 1400 NJ 1400 N 1400 N 1400 N 1400 2510
+preplace netloc ctrl_adc_0_AIN3_value 1 1 6 90 1380 N 1380 N 1380 N 1380 N 1380 2480
+preplace netloc ctrl_adc_0_AIN4_value 1 1 6 40 1440 NJ 1440 N 1440 N 1440 N 1440 2530
+preplace netloc ctrl_adc_0_AIN6_value 1 1 6 100 1360 NJ 1360 N 1360 N 1360 N 1360 2470
+preplace netloc ctrl_adc_0_AIN7_value 1 1 6 110 1370 NJ 1370 N 1370 N 1370 N 1370 2460
+preplace netloc ctrl_adc_0_AIN8_value 1 1 6 70 1460 NJ 1460 N 1460 N 1460 N 1460 2500
+preplace netloc ctrl_adc_0_w_valid 1 6 1 2560 930n
+preplace netloc sequencer_0_clk_slow 1 2 2 N 290 1190
+preplace netloc sequencer_0_test_results 1 2 2 680 340 N
+preplace netloc sequencer_0_test_done 1 2 2 670 320 N
+preplace netloc power_management_0_board_started 1 1 3 120 1390 790 380 N
+preplace netloc power_management_0_EN_PWR_5V 1 2 6 N 1200 N 1200 NJ 1200 NJ 1200 N 1200 2950
+preplace netloc leds_display_0_io_exp_0 1 4 1 1720J 330n
+preplace netloc leds_display_0_io_exp_1 1 4 1 1720J 360n
+preplace netloc ADC_eoc_0_1 1 0 6 NJ 1170 -120J 1350 N 1350 1210 970 N 970 N
+preplace netloc ctrl_adc_0_AIN0_value 1 1 6 20 1420 NJ 1420 N 1420 N 1420 N 1420 2550
+preplace netloc spi_miso_2 1 0 7 NJ 200 -100J 80 NJ 80 N 80 NJ 80 N 80 2610
+preplace netloc spi_master_0_spi_mosi 1 7 1 3000 120n
+preplace netloc spi_master_0_spi_clk 1 7 1 3010 150n
+preplace netloc spi_master_0_spi_csn 1 7 1 3020 180n
+preplace netloc rstn_0_1 1 0 7 NJ 1020 -10J 60 N 60 1210 220 1710 700 2090 700 2580
+preplace netloc ctrl_adc_0_AIN5_value 1 1 6 50 1450 N 1450 N 1450 N 1450 N 1450 2520
+preplace netloc ctrl_adc_0_AIN9_value 1 1 6 80 1470 NJ 1470 N 1470 N 1470 N 1470 2490
+preplace netloc IOV_VMECPU_0_1 1 0 2 NJ 1050 -60J
+preplace netloc PG_PWR_5V_0_1 1 0 2 NJ 1080 -100J
+preplace netloc start_btnn_0_1 1 0 2 NJ 1110 -110J
+preplace netloc CLOCK_OUT_0_1 1 0 2 NJ 780 NJ
+preplace netloc sequencer_0_TST_CLK_S0 1 2 6 690J 400 1180 640 1700J 670 NJ 670 N 670 3010J
+preplace netloc sequencer_0_TST_CLK_S1 1 2 6 700J 410 1170 650 NJ 650 NJ 650 2550 710 NJ
+preplace netloc sequencer_0_TST_CLK_S2 1 2 6 720J 420 1160 680 1700J 710 NJ 710 2540 740 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 2 120 110 730
+preplace netloc clk_ref_1 1 0 2 -1400 710 -90
+preplace netloc power_management_0_shut_down 1 2 2 770 390 1190
+preplace netloc sw_not_programmed_0_1 1 0 4 NJ 720 10J 90 N 90 1200
+preplace netloc led_rst_0_1 1 0 3 NJ 750 -40J 1090 840
+preplace netloc led_usr_0_1 1 0 3 NJ 810 -70J 1340 940
+preplace netloc led_wtd_0_1 1 0 3 NJ 840 -80J 1100 930
+preplace netloc hreset_0_1 1 0 3 NJ 880 -50J 1410 950
+preplace netloc sequencer_0_btn_rst_t 1 2 6 890J 1110 1170 770 NJ 770 NJ 770 NJ 770 2980J
+preplace netloc sequencer_0_cnt_pgvdimm_to_poreset_for_ILA 1 2 1 680 630n
+preplace netloc sequencer_0_cnt_poreset_to_hreset_for_ILA 1 2 1 700 650n
+preplace netloc sequencer_0_cnt_hreset_to_led_usr_for_ILA 1 2 1 740 670n
+preplace netloc sequencer_0_cnt_led_usr_to_btn_reset_for_ILA 1 2 1 760 690n
+preplace netloc sequencer_0_cnt_pgvdimm_to_poreset_2_for_ILA 1 2 1 800 710n
+preplace netloc sequencer_0_cnt_poreset_to_hreset_2_for_ILA 1 2 1 850 730n
+preplace netloc sequencer_0_cnt_hreset_to_led_usr_2_for_ILA 1 2 1 860 750n
+preplace netloc sequencer_0_cnt_btn_reset_to_btn_reset_off_for_ILA 1 2 1 810 770n
+preplace netloc sequencer_0_XTAL_RTC_OE 1 2 6 710J 430 1150J 690 NJ 690 NJ 690 NJ 690 3000J
+preplace netloc sequencer_0_rst_done_ok 1 2 1 870 790n
+preplace netloc sequencer_0_hreset_2_ok 1 2 1 880 810n
+preplace netloc sequencer_0_poreset_2_ok 1 2 1 820 830n
+preplace netloc sequencer_0_btn_rst_ok 1 2 1 900 850n
+preplace netloc sequencer_0_led_usr_ok 1 2 1 910 870n
+preplace netloc sequencer_0_hreset_ok 1 2 1 920 890n
+preplace netloc sequencer_0_poreset_ok 1 2 1 830 910n
+preplace netloc sequencer_0_cnt_b4_for_ILA 1 2 1 750 590n
+levelinfo -pg 1 -1490 -220 420 1060 1540 1940 2320 2820 3080
+pagesize -pg 1 -db -bbox -sgen -1690 -620 3230 2050
+"
+}
+0
